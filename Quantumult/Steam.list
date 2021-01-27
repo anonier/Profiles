@@ -1,3 +1,14 @@
 DOMAIN-SUFFIX,steamcontent.com,PROXY
 DOMAIN-SUFFIX,steampowered.com,PROXY
 DOMAIN-SUFFIX,steamstatic.com,PROXY
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steamstat.us
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN,steambroadcast.akamaized.net
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN,steamcommunity-a.akamaihd.net
+DOMAIN,steamstore-a.akamaihd.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
