@@ -6,6 +6,7 @@ HOST,interface.music.163.com,Music
 HOST,interface3.music.163.com,Music
 HOST,music.126.net,Music
 HOST,music.163.com,Music
+HOST,163jiasu.com,Music
 IP-CIDR,101.71.154.241/32,Music
 IP-CIDR,103.126.92.132/32,Music
 IP-CIDR,103.126.92.133/32,Music
