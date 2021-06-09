@@ -1,1 +1,2 @@
-Clash Quantumult QuantumultX Surge Rule
+Clash
+QuantumultX
