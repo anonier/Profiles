@@ -1,12 +1,7 @@
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90,Music
 USER-AGENT,NeteaseMusic*,Music
-HOST,apm.music.163.com,Music
-HOST,apm3.music.163.com,Music
-HOST,interface.music.163.com,Music
-HOST,interface3.music.163.com,Music
-HOST,music.126.net,Music
-HOST,music.163.com,Music
-HOST,ac.dun.163.com,Music
+HOST,163.com,Music
+#HOST,music.126.net,Music
 HOST,163jiasu.com,Music
 IP-CIDR,101.71.154.241/32,Music
 IP-CIDR,103.126.92.132/32,Music
