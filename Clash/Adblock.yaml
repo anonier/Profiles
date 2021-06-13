@@ -1,6 +1,6 @@
 payload:
   # 迅雷资源审核
-  - DOMAIN-SUFFIX,hub5btmain.v6.shub.sandai.net,REJECT
+  - DOMAIN-SUFFIX,hub5btmain.v6.shub.sandai.net
   # huya
   - DOMAIN-SUFFIX,2200755258-server.va.huya.com
   # douyu
