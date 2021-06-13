@@ -1,4 +1,15 @@
 payload:
+  # > douyu & huya
+  - DOMAIN-SUFFIX,2200755258-server.va.huya.com
+  - DOMAIN-SUFFIX,stun.douyucdn.cn
+  - IP-CIDR,113.67.11.254/32
+  - IP-CIDR,140.240.29.234/32
+  - IP-CIDR,33.18.164.66/32
+  - IP-CIDR,222.240.13.213/32
+  - IP-CIDR,183.136.234.130/32
+  - IP-CIDR,183.136.234.132/32
+  - IP-CIDR,113.14.164.169/32
+
   - DOMAIN-SUFFIX,a.ckm.iqiyi.com
   - DOMAIN-SUFFIX,ad.m.iqiyi.com
   - DOMAIN-SUFFIX,afp.iqiyi.com
