@@ -1,6 +1,9 @@
 payload:
-  # > douyu & huya
+  # 迅雷资源审核
+  - DOMAIN-SUFFIX,hub5btmain.v6.shub.sandai.net,REJECT
+  # huya
   - DOMAIN-SUFFIX,2200755258-server.va.huya.com
+  # douyu
   - DOMAIN-SUFFIX,stun.douyucdn.cn
   - IP-CIDR,113.67.11.254/32
   - IP-CIDR,140.240.29.234/32
@@ -50,7 +53,7 @@ payload:
   - IP-CIDR,101.227.200.28/32
   - IP-CIDR,124.192.153.42/32
 
-  # > Youku & Tudou
+  # Youku & Tudou
   - DOMAIN-SUFFIX,actives.youku.com
   - DOMAIN-SUFFIX,ad.api.3g.tudou.com
   - DOMAIN-SUFFIX,ad.api.3g.youku.com
