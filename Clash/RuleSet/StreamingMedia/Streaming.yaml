@@ -4,10 +4,12 @@ payload:
   # (Live)
   # > Twitch
   - PROCESS-NAME,tv.twitch.android.app
+  - DOMAIN-SUFFIX,ext-twitch.tv
   - DOMAIN-SUFFIX,jtvnw.net
   - DOMAIN-SUFFIX,ttvnw.net
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,twitchcdn.net
+  - DOMAIN-SUFFIX,twitch-ext.rootonline.de
 
   # (Music)
   # > Deezer
@@ -218,9 +220,6 @@ payload:
   - PROCESS-NAME,com.litv.mobile.gp.litv
   - DOMAIN-SUFFIX,litv.tv
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
-  # > MangoTV(芒果TV国际)
-  - DOMAIN-SUFFIX,api.mgtv.com
-  - DOMAIN,mobileso.bz.mgtv.com
   # > My5
   - PROCESS-NAME,com.mobileiq.demand5
   - DOMAIN-SUFFIX,channel5.com
@@ -334,7 +333,14 @@ payload:
   - PROCESS-NAME,com.google.android.youtube
   - PROCESS-NAME,com.google.android.youtube.tv
   - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,withyoutube.com
+  - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,youtubeeducation.com
+  - DOMAIN-SUFFIX,youtubegaming.com
+  - DOMAIN-SUFFIX,youtubekids.com
+  - DOMAIN-SUFFIX,youtube-nocookie.com
+  - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN,youtubei.googleapis.com
   - DOMAIN,yt3.ggpht.com
