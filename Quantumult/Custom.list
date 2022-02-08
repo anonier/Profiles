@@ -11,4 +11,3 @@ host-keyword,nvidia,PROXY
 host-keyword,pximg,PROXY
 host-suffix,oracle.com,PROXY
 ip-cidr,34.82.249.103/32,direct
-final, PROXY
