@@ -4,6 +4,7 @@ host-suffix,akamaized.net,DIRECT
 host-keyword,steam,PROXY
 host-keyword,visualstudio,DIRECT
 host-keyword,navicat,DIRECT
+host-suffix,windows.com,Microsoft
 host-keyword,microsoft,Microsoft
 host-keyword,office,Microsoft
 host-keyword,onedrive,Microsoft
