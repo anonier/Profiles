@@ -1,5 +1,6 @@
 host-suffix,officecdn.microsoft.com,DIRECT
 host-suffix,coolhub.top,DIRECT
+host-suffix,bahamut.akamaized.net,Baha
 host-suffix,akamaized.net,DIRECT
 host-keyword,steam,PROXY
 host-keyword,visualstudio,DIRECT
