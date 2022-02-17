@@ -1,4 +1,4 @@
-host-suffix,hub5btmain.v6.shub.sandai.net,REJECT # 迅雷资源审核
+host-suffix,hub5btmain.v6.shub.sandai.net,REJECT
 host-suffix,officecdn.microsoft.com,DIRECT
 host-suffix,coolhub.top,DIRECT
 host-suffix,bahamut.akamaized.net,Baha
