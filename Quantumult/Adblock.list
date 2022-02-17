@@ -1,9 +1,6 @@
-# 迅雷资源审核
-DOMAIN-SUFFIX,hub5btmain.v6.shub.sandai.net,REJECT
-
 # https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt
 
-# Current total domain name : 43,000+ 
+# Current total domain name : 43,000+
 # Update time : 2021.2.27
 
 # AdRule
