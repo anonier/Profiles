@@ -16,3 +16,4 @@ host-keyword,microsoft,Microsoft
 host-keyword,nvidia,PROXY
 host-keyword,pximg,PROXY
 ip-cidr,34.82.249.103/32,direct
+ip-cidr,119.28.38.139/32,direct
