@@ -1,3 +1,5 @@
+host-suffix,paypal.com,proxy
+host-suffix,music.126.net,CN
 host-keyword,yoobu,DIRECT
 host-suffix,hub5btmain.v6.shub.sandai.net,REJECT
 host-suffix,91chaoqing.com,DIRECT
