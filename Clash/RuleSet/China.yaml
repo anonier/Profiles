@@ -2,8 +2,9 @@ payload:
   # China Area Network
   - DOMAIN-SUFFIX,flyert.com
   - DOMAIN-SUFFIX,gandi.net
-  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,snapdrop.net
   - DOMAIN,download.jetbrains.com
+  - DOMAIN,origin-a.akamaihd.net
   # ---(Microsoft)---
   # > Outlook
   - DOMAIN,outlook.office365.com
@@ -21,7 +22,11 @@ payload:
   # > PayPal
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me
+  - DOMAIN-SUFFIX,paypal-mktg.com
   - DOMAIN-SUFFIX,paypalobjects.com
+  # > Steam
+  - DOMAIN-SUFFIX,cm.steampowered.com
+  - DOMAIN-SUFFIX,steamserver.net
   # > Tencent
   - IP-CIDR,182.254.116.0/24,no-resolve
   - IP-CIDR,203.205.238.0/23,no-resolve

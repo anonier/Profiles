@@ -3,7 +3,7 @@
 
 [General]
 # > 跳过代理
-skip-proxy = %APPEND% passenger.t3go.cn
+skip-proxy = %APPEND% passenger.t3go.cn, www.baidu.com, yunbusiness.ccb.com
 
 # > Always Real IP Hosts
 always-real-ip = %APPEND% *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.logon.battlenet.com.cn, *.logon.battle.net, stun.l.google.com
@@ -73,6 +73,7 @@ tun-excluded-routes = %APPEND% 239.255.255.250/32
 ^https?:\/\/(www.)?nicelabel\.cc\/ https://www.nicelabel.com/zh/ 302
 ^https?:\/\/(www.)?ntfsformac\.cc\/ https://www.tuxera.com/products/tuxera-ntfs-for-mac-cn/ 302
 ^https?:\/\/(www.)?ntfsformac\.cn\/ https://china.paragon-software.com/home-mac/ntfs-for-mac/ 302
+^https?:\/\/(www.)?officesoftcn\.com\/ https://www.microsoft.com/zh-cn/microsoft-365 302
 ^https?:\/\/(www.)?overturechina\.com\/ https://sonicscores.com/ 302
 ^https?:\/\/(www.)?passwordrecovery\.cn\/ https://cn.elcomsoft.com/aopr.html 302
 ^https?:\/\/(www.)?pdfexpert\.cc\/ https://pdfexpert.com/zh 302
@@ -84,8 +85,8 @@ tun-excluded-routes = %APPEND% 239.255.255.250/32
 ^https?:\/\/(www.)?yuanchengxiezuo\.com\/ https://www.teamviewer.com/ 302
 ^https?:\/\/(www.)?zbrushcn\.com\/ https://pixologic.com/ 302
 
-# AbeamTV - api.abema.io
-^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
+# AbeamTV - api.*.abema-tv.com
+^https?:\/\/api\.[\w-]+\.abema-tv\.com\/v\d\/ip\/check - reject
 
 # bstar intl
 (^https?:\/\/app\.biliintl\.com\/(x\/)?(intl|dm|reply|history|v\d\/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$6&sim_code=51503$8 header
@@ -99,4 +100,4 @@ bstar_login = type=http-request,pattern=^https?:\/\/passport\.biliintl\.com\/x\/
 bstar_play = type=http-request,pattern=^https?:\/\/app\.biliintl\.com\/(intl\/gateway\/v\d\/app\/data\/report\/heartbeat\/mobile|x\/(history|reply)/v\d/add),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% www.google.cn,www.firefox.com.cn,api.abema.io,app.biliintl.com,passport.biliintl.com
+hostname = %APPEND% www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,app.biliintl.com,passport.biliintl.com
