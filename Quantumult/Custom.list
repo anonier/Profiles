@@ -1,6 +1,12 @@
 # > B站自动换区
 ip-cidr, 203.107.1.1/24, reject
 
+# > 似乎是apple定位
+# > iphone
+host-suffix,gs-loc.apple.com,CN
+# > ipad
+host-suffix,gs-loc-cn.apple.com,CN
+
 host-suffix,paypal.com,proxy
 host-suffix,music.126.net,CN
 host-keyword,yoobu,DIRECT
