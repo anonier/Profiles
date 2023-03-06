@@ -1,6 +1,7 @@
 # > B站自动换区
 ip-cidr, 203.107.1.1/24, reject
-
+# > 贴吧屏蔽域名dns查询
+ip-cidr, 180.76.76.200/32, reject
 # > 似乎是apple定位
 # > iphone
 host-suffix,gs-loc.apple.com,CN
