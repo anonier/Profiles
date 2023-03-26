@@ -10,7 +10,7 @@ host-suffix,gs-loc-cn.apple.com,CN
 
 host-suffix,paypal.com,proxy
 host-suffix,music.126.net,CN
-host-keyword,yoobu,DIRECT
+host-keyword,yoobu,direct
 host-suffix,hub5btmain.v6.shub.sandai.net,REJECT
 host-suffix,91chaoqing.com,DIRECT
 host-suffix,jomodns.com,DIRECT
